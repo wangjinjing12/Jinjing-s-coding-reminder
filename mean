@@ -1,0 +1,6 @@
+# an excel table with only one column, seperated by ","
+data<-read.csv(file="/Users/jinjing/Desktop/hw1_data-2.csv",sep=",")
+data$Ozone
+bad <- is.na(x)
+> x[!bad]
+mean(x)
