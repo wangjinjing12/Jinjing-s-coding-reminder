@@ -1,0 +1,12 @@
+x <- 0
+c <- 0
+for( i in 1:153)
+{
+ if(m[i]==6)
+   {
+   x = x + t[i]
+   c= c+1
+   }
+}
+print(x)
+print(c)
