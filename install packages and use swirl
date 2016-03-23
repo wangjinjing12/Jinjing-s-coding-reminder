@@ -1,0 +1,4 @@
+install.packages('package_name', dependencies=TRUE, repos='http://cran.rstudio.com/')
+## This very line of codes definitely helped me out of almost an hour of frustration. Thanksss~
+library("swirl")
+swirl()
